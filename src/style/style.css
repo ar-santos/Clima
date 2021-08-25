@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(193deg,#FF8C00,#FFD700 130%);
+}
+.h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
