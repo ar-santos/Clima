@@ -6,12 +6,50 @@
 body{
     height: 100vh;
     font-family: sans-serif;
-    background: linear-gradient(193deg,#FF8C00,#FFD700 130%);
+    background: linear-gradient(193deg,#FF8C00,#FFD700 140%);
 }
-.h1{
-    font-size: 25px;
+.h1-previsão{
+    font-size: 55px;
     color: white;
     text-align: center;
     position: relative;
     top: 60px;
+}
+.form-cta input{
+    text-align: left;
+    border: none;
+    padding: 10px;
+    width: 32%;
+    height: 42px;
+    font-size: 18px;
+    position: relative;
+    transform: translate(-0%,275%);
+    left: 34%;
+}
+.form-cta button{
+    border: none;
+    position: relative;
+    width: 0%;
+    height: 42px;
+    transform: translate(-0%,292%);
+    left: 31%;
+    color: rgba(0, 0, 0, 0.658);
+}
+.linha{
+    
+    width: 39%;
+    border-top: 1px solid white;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,14000%); 
+}
+.h1-capitais{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-59%,560%); 
 }
