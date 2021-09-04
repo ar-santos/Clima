@@ -8,48 +8,61 @@ body{
     font-family: sans-serif;
     background: linear-gradient(193deg,#FF8C00,#FFD700 140%);
 }
+.flex-container{
+    width: 100vW;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.form-cta{
+    flex: 0 1 85%;
+}
 .h1-previsão{
     font-size: 55px;
     color: white;
     text-align: center;
-    position: relative;
-    top: 60px;
+   
 }
 .form-cta input{
     text-align: left;
     border: none;
     padding: 10px;
+    position: relative;
     width: 32%;
     height: 42px;
     font-size: 18px;
-    position: relative;
-    transform: translate(-0%,275%);
+    align-items: center;
     left: 34%;
+    top: 6%;
 }
 .form-cta button{
     border: none;
     position: relative;
     width: 0%;
     height: 42px;
-    transform: translate(-0%,292%);
     left: 31%;
+    top: 6.9%;
     color: rgba(0, 0, 0, 0.658);
 }
 .linha{
-    
+    position: relative;
+    left: 30.5%;
+    top: 8%;
     width: 39%;
     border-top: 1px solid white;
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,14000%); 
 }
 .h1-capitais{
     font-size: 30px;
     color: white;
-    text-align: center;
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translate(-59%,560%); 
+    
 }
+/* .container{
+    width: 32%;
+    border-top: 250px solid white;
+    position: relative;
+   
+    left: 34%;
+} */
