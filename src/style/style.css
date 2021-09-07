@@ -78,12 +78,12 @@ body {
     padding-left: 35px; 
     color: rgba(0, 0, 0, 0.651);
 }
-.detalhe-clima button {
+ .detalhe-clima button {
     position: relative;
     left: 92%;
     top: -630%;
     color: #FF8C00;
-}
+} 
 .h1-graus {
     font-size: 40px;
     padding-top: 20px;
@@ -101,30 +101,33 @@ body {
     }
     .detalhe-clima {
         width: 100%;
-        height: 360px;
-        position: relative;
-        bottom:  3%;
+        height: 325px;
+        border-top: 300px solid #f4f0ec;
+        position: relative; 
+        left: 0%;
+        bottom: 3%;
     } 
     .titulo-detalhe {
-        display: inline-flex;
-        align-self: left;
+        font-size: 12px;
         position: relative;
-        padding-left: 30px; 
-        color: rgba(0, 0, 0, 0.685);
+        bottom: 1100%;
+        padding-left: 35px; 
+        color: rgba(0, 0, 0, 0.651);
     }
-     .btn-detalhe {
-        position: relative; 
-        font-size: 30px;
+    .detalhe-clima button {
+        position: relative;
+        left: 90%;
+        top: -1500%;
         color: #FF8C00;
-    } 
-    .linha {
+    }
+     .linha {
         position: relative;    
-        top: -11%;
+        top: -5%;
         left: 0%;
         width: 100%;
         border-top: 1px solid white;
     }
-    .form-cta input {
+     .form-cta input {
         text-align: left;
         border: none;
         padding: 10px;
@@ -134,15 +137,23 @@ body {
         font-size: 18px;
         align-items: center;
         left: 5%;
-        top:  -8%;
+        top:  -4%;
     }
-    .form-cta button {
+    .h1-capitais {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 5%;   
+        right: 25%;
+    }
+     #pesquisa-btn {
         border: none;
         position: relative;
         width: 0%;
         height: 42px;
         left: -4%;
-        top: -7%;
+        top: -3%;
         color: rgba(0, 0, 0, 0.658);
-    }
+    }    
 } 
