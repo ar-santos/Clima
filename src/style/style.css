@@ -88,7 +88,18 @@ body {
     font-size: 40px;
     padding-top: 20px;
 }
-
+.tabela{
+    position: relative;
+    padding-right: 10px;
+    align-content:left;
+}
+.tabela-1{
+    position: relative;
+    padding-right: 10px;
+}
+.tabela-2{
+    position: relative;
+}
 @media screen and (max-width: 975px){
     .h1-previsao {
         font-size: 27px;
@@ -157,3 +168,10 @@ body {
         color: rgba(0, 0, 0, 0.658);
     }    
 } 
+     @media screen and (max-width: 290px){
+        .header{
+            position: fixed;
+        
+        
+        }
+    } 
