@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(193deg,#FF8C00,#FFD700 140%);
+}
+.app-clima {
+    width: 100vW;
+    height: 100vh;
+    margin: auto;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.header {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3.8%;   
+}
+.detalhe-clima{
+    width: 32%;
+  
+  background-color: #f4f0ec;
+    position: relative; 
+    left: 34%;
+    bottom: 3%;
+}
+.nome-cidade{
+    font-size: 12px;
+    position: relative;
+    padding-left: 35px; 
+    color: rgba(0, 0, 0, 0.651);
+}
+.btn-close{
+    position: relative;
+    color: #FF8C00;
+}
+.input-pesquisa-cidade{
+    text-align: left;
+    border: none;
+    padding: 10px;
+    position: relative;
+    width: 32%;
+    height: 42px;
+    font-size: 18px;
+    align-items: center;
+    left: 34%;
+    bottom: 8%;
+}
+.button-pesquisa-cidade{
+    border: none;
+    position: relative;
+    width: 0%;
+    height: 42px;
+    left: 31%;
+    color: rgba(0, 0, 0, 0.658);
+}
+.capitais-titulo{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1.9%;   
+    right: 10%;
+}
+.cabecalho-capitais{
+    position: relative;
+    right: 7%;
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 12px;
+}
+.container-tabela-capitais{
+    margin: 15px;
+    position: relative;
+}
+.linha-tabela{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.coluna-tabela1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.coluna-tabela2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
