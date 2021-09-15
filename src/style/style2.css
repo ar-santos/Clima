@@ -18,28 +18,65 @@ body {
     align-content: center;
 }
 .header {
-    font-size: 20px;
+    font-size: 19px;
     color: white;
     text-align: center;
     position: relative;
-    bottom: 3.8%;   
+    bottom: 20%;   
 }
 .detalhe-clima{
     width: 32%;
-  
-  background-color: #f4f0ec;
+    height: 30%;
+    background-color: #f4f0ec;
     position: relative; 
     left: 34%;
-    bottom: 3%;
+    bottom: 18%;
+    padding-left: 35px;
 }
 .nome-cidade{
     font-size: 12px;
     position: relative;
-    padding-left: 35px; 
-    color: rgba(0, 0, 0, 0.651);
+    top: 2%;
+    color: rgba(0, 0, 0, 0.945);
+}
+.arrow{
+    color: #FF8C00;
+}
+.detalhe-temperatura2{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+
+}
+.temperatura-baixa{
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+}
+.temperatura-alta{
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+}
+.temperatura-sensacao{
+    position: relative;
+    
+    
+}
+.detalhe-vento-umidade{
+    display: flex;
+    flex-direction: row;
+    width: 2%;
+}
+.temperatura-valor{
+    color:rgba(0, 0, 0, 0.664);
+    font-size: 40px;
+    padding-top: 5%;
 }
 .btn-close{
     position: relative;
+    /* padding-left: 65%;
+    top: 12px; */
     color: #FF8C00;
 }
 .input-pesquisa-cidade{
@@ -97,4 +134,7 @@ body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-}
+}      
+.graus-temperatura{
+    color: #FF8C00;
+}     
