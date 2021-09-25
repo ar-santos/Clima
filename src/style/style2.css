@@ -10,32 +10,32 @@ body {
     background: linear-gradient(100deg,#FF8C00,#FFD700 140%);
 }
 .app-clima {
+    width: 100vw;
     display: flex;
-    margin: auto;   
     flex-direction: column;
-    justify-content: center;
     align-content: center;
-   
+    align-items: center;   
 }
 .header {
     font-size: 19px;
     color: white;
+    height: 70px;
+    width: 470px;
     border: 30px;
     text-align: center; 
     position: relative; 
 }
 .detalhe-clima{
+    display: flex;
     background-color: #FFF3E4;
-    box-shadow: 0 6px 6px rgba(13, 6, 97, 0.089), 0 6px 6px rgba(2, 9, 71, 0.233);
+    box-shadow: 0 6px 6px rgba(80, 78, 97, 0.089), 0 6px 6px rgba(2, 9, 71, 0.233);
     width: 470px;
     height: 285px;
-    display: flex;
     margin-bottom: 20px;
     margin-top: 30px;
     flex-direction: column;
     left: 29%;
     padding-left: 45px;
-    left: calc(10% - 1700px);
 }
 .nome-cidade{
     font-size: 14px;
@@ -108,23 +108,31 @@ body {
     width: 100%;
     border-top: 1px solid #FF8C00;
 }
-.input-pesquisa-cidade{
-    text-align: left;
-    padding: 10px;
-    position: relative;
-    width:  470px;
-    height: 42px;
-    font-size: 18px;
-    align-items: center;
-    bottom: 8%;
-    border: none;
+.container-input{
+    width: 470px;
+    height: 50px;
+    margin-bottom: 15px;
+    position: relative;  
 }
-.button-pesquisa-cidade{
+.input-pesquisa-cidade{
+    padding: 10px;
     border: none;
+    background: white;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
     position: relative;
-    width: 0%;
-    height: 42px;
-    color: rgba(0, 0, 0, 0.658);
+} 
+.button-pesquisa-cidade{
+    position: absolute;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.658);
+    height: 100%;
+    width: 50px;
+    padding: 10px;
+    left: 410px;
+    z-index: 20;
 }
 .capitais-titulo{
     font-size: 20px;
@@ -167,7 +175,8 @@ body {
     color: #FF8C00;
 }     
 .dias-semana1{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 20px;
     color: rgba(0, 0, 0, 0.788);
 }
@@ -186,11 +195,6 @@ body {
 .bold{
     font-weight: bold;
     color: rgba(0, 0, 0, 0.733)
-}
-.button-pesquisa-cidade{
-    position: relative;
-    right: 40px;
-    top: 6px;
 }
 @media (max-width :600px){
 
