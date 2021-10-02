@@ -157,8 +157,7 @@ body {
 .linha-tabela{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
 }
 .coluna-tabela1{
     display: flex;
@@ -201,10 +200,10 @@ body {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.733)
 }
-@media (max-width :600px){
+/* @media (max-width :600px){
 
     .oculta{
         display: none;
     
       }
-}
+} */
