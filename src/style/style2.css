@@ -140,37 +140,36 @@ body {
     color: white;
     text-align: left;
     position: relative;
+    padding-bottom: 30px;
     right: 20px;
     top: 35px;
     
 }
-.cabecalho-capitais{
-    position: relative;
-    right: 7%;
-    color: rgba(0, 0, 0, 0.719);
-    font-size: 12px;
-}
 .container-tabela-capitais{
-    margin: 15px;
+    display: flex;
     position: relative;
+    margin: 15px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    right: 43px;
+}
+.dias-semana td {
+   padding-bottom: 10px;
+   padding-left: 5px;
+   font-weight: bold;
+   text-align: left;
+}
+.dias-semana th {
+   padding: 10px;
+   text-align: center;
+   font-weight: normal;
 }
 .linha-tabela{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 }
-.coluna-tabela1{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-.coluna-tabela2{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}      
 .graus-temperatura{
     font-size: 16px;
     color: #FF8C00;
@@ -186,6 +185,7 @@ body {
 }
 .dias-semana{
     font-weight: bold;
+    padding-left: 20px;
 }
 .linha{
     display: flex;
@@ -200,10 +200,10 @@ body {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.733)
 }
-/* @media (max-width :600px){
+ /* @media (max-width :600px){
 
     .oculta{
         display: none;
     
       }
-} */
+}  */
