@@ -39,11 +39,14 @@ body {
     padding-left: 45px;
 }
 .nome-cidade{
+    display: flex;
+    flex-direction: row;
     font-size: 14px;
     position: relative;
-    top: 2%;
     color: rgba(0, 0, 0, 0.726);
     font-weight: bold;
+    align-items: center;
+    padding-top: 10px;
 }
 .arrow{
     color: #FF8C00;
@@ -223,6 +226,10 @@ body {
         flex-direction: column;
         left: 29%;
         padding-left: 45px;
+    }
+    .temperatura-sensacao{
+        display: flex;
+        padding-left: 52%;        
     }
     .input-pesquisa-cidade{
         padding: 10px;
