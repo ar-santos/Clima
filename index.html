@@ -12,12 +12,13 @@
 <body>
     <div class="app-clima"> 
         <header class="header">
-            <h1>Previsão do tempo</h1>
+            <h1 class="title">Previsão do tempo</h1>
         </header>
         <section class="detalhe-clima">
+            <div class="padding">
             <div class="nome-cidade">
-                <span>Niterói, RJ - Brasil</span>
-                <span class="material-icons btn-close" id="btn-fechar">close</span>
+                <span class="nome-cidade1">Niterói, RJ - Brasil</span>
+                <span class="material-icons md-36 btn-close" id="btn-fechar">close</span>
             </div>
             <div class="temperatura-principal">
                 <h1 class="temperatura-valor">20°C Nublado</h1>
@@ -32,7 +33,7 @@
                     <span class="valor-maximo bold"> 25°</span>
                 </div>
                 <div class="temperatura-sensacao">
-                    <span class="descricao-sensacao color">Sensação</span>
+                    <span class="descrisao-sensacao color">Sensação</span>
                     <span class="valor-sensacao bold"> 19°C</span>
                 </div>
             </div>
@@ -45,6 +46,7 @@
                     <span class="descricao-humidade  color">Humidade</span>
                     <span class="valor-humidade"> 89%</span>
                 </div>
+            </div>
             </div>
             <div class="linha-detalhe"></div>
             <div class="conteiner-semana">
@@ -60,18 +62,18 @@
                     </thead>
                     <tbody>
                         <tr class="graus-temperatura">
-                          <td>18° 26°</td>
-                          <td>18° 28°</td>
-                          <td>19° 30°</td>
-                          <td>23° 35°</td>
-                          <td  class="graus-sabado">23° 37°</td>                          
+                          <td class="min-max-semana">18° 26°</td>
+                          <td class="min-max-semana">18° 28°</td>
+                          <td class="min-max-semana">19° 30°</td>
+                          <td class="min-max-semana">23° 35°</td>
+                          <td class="min-max-semana">23° 37°</td>                          
                         </tr>
                       </tbody>
                 </table>
             </div>
         </section>
         <section class="container-input">           
-            <span class="material-icons button-pesquisa-cidade" id="btn-pesquisa">search</span>
+            <span class="material-icons md-36 button-pesquisa-cidade" id="btn-pesquisa">search</span>
             <input type="text" class="input-pesquisa-cidade" placeholder="insira aqui o nome da cidade">
         </section>
         <section class="container-capitais">
@@ -108,16 +110,6 @@
                                   <td>32°C</td>                                        
                                   <td>Belo horizonte</td>                                        
                                 </tr>
-                                <tr>
-                                  <td>37°C</td>
-                                  <td>24°C</td>                                        
-                                  <td>Brasília</td>                                        
-                                </tr>
-                                <tr>
-                                  <td>21°C</td>
-                                  <td>32°C</td>                                        
-                                  <td>Belém</td>                                        
-                                </tr>
                               </tbody>
                         </table>
                     </div>
@@ -132,29 +124,19 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                  <td>23°C</td>
-                                  <td>37°C</td>                                        
-                                  <td>Salvador</td>                                        
+                                  <td>18°C</td>
+                                  <td>27°C</td>                                        
+                                  <td>Rio de janeiro</td>                                        
                                 </tr>
                                 <tr>
-                                  <td>05°C</td>
-                                  <td>14°C</td>                                        
-                                  <td>Curitiba</td>                                        
+                                  <td>14°C</td>
+                                  <td>22°C</td>                                        
+                                  <td>São Paulo</td>                                        
                                 </tr>
                                 <tr>
                                   <td>21°C</td>
                                   <td>32°C</td>                                        
-                                  <td>Fortaleza</td>                                        
-                                </tr>
-                                <tr>
-                                  <td>24°C</td>
-                                  <td>37°C</td>                                        
-                                  <td>Manaus</td>                                        
-                                </tr>
-                                <tr>
-                                  <td>28°C</td>
-                                  <td>40°C </td>                                        
-                                  <td>João Pessoa</td>                                        
+                                  <td>Belo horizonte</td>                                        
                                 </tr>
                               </tbody>
                         </table>

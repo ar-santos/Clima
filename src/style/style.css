@@ -36,57 +36,16 @@ body {
     margin-top: 13px;
     flex-direction: column;
     left: 29%;
-    padding-left: 45px;
+}
+.padding{
+    padding-left: 30px;
 }
 .nome-cidade{
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bolder;
     position: relative;
     color: rgba(0, 0, 0, 0.726);
-    font-weight: bold;
-    align-items: center;
-    padding-top: 10px;
 }
-.arrow{
-    color: #FF8C00;
-}
-.detalhe-temperatura{
-    display: flex;
-    flex-direction: row;
-    border-left: 10px;
-}
-.temperatura-baixa{
-    display: flex;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-.color{
-    color: rgba(0, 0, 0, 0.555);
-}
-.temperatura-alta{
-    display: flex;
-    flex-basis: 100%;
-    flex: 4.6;
-}
-
-.detalhe-vento-humidade{
-    display: flex;
-    flex-direction: row;
-    border-left: 10px;
-}
-.humidade{
-    padding-left: 8%;
-    padding-bottom: 4%;
-    
-}
-.temperatura-sensacao{
-    position: relative;
-    right: 43%;
-    padding-bottom: 6%;
-}
-
 .temperatura-valor{
     color:rgba(0, 0, 0, 0.664);
     font-size: 50px;
@@ -100,17 +59,77 @@ body {
     color: #FF8C00;
     font-size: 30px;
     font-weight: bolder;
-    left: calc(100% - 170px);
+    left: calc(100% - 210px);
+    top: 10px;
+}
+.detalhe-temperatura{
+    display: flex;
+    flex-direction: row;
+    border-left: 10px;
+}
+.temperatura-baixa{
+    display: flex;
+    flex-basis: 100%;
+    flex: 1;
+}
+.temperatura-alta{
+    display: flex;
+    flex-basis: 100%;
+    flex: 4.6;
+}
+.arrow{
+    color: #FF8C00;
+}
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.temperatura-sensacao{
+    position: relative;
+    text-align: center;
+    right: 43%;
+    padding-bottom: 5%;
+}
+.detalhe-vento-humidade{
+    display: flex;
+    flex-direction: row;
+    border-left: 10px;
+}
+.humidade{
+    padding-left: 9%;
+    padding-bottom: 3%;
 }
 .valor-humidade{
     font-weight: bold;
     color:rgba(0, 0, 0, 0.719);
 }
+.color{
+    color: rgba(0, 0, 0, 0.555);
+} 
 .linha-detalhe{
     position: relative;
-    right: 7%;
     width: 100%;
     border-top: 1px solid #FF8C00;
+}
+.conteiner-semana{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    font-size: 18;
+    padding-right: 10px;
+}
+.dias-semana{
+    width: 100%;
+}
+.dias-semana td {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+.dias-semana th {
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
 }
 .container-input{
     width: 470px;
@@ -138,56 +157,6 @@ body {
     left: 410px;
     z-index: 20;
 }
-
-.container-tabela-capitais{
-    display: flex;
-    position: relative;
-    margin: 15px;
-    justify-content: space-between;
-    flex-basis: 100%;
-    right: 43px;
-}
-.dias-semana td {
-   padding-bottom: 10px;
-   padding-left: 5px;
-   font-weight: bold;
-   text-align: left;
-}
-.dias-semana th {
-   padding: 10px;
-   text-align: center;
-   font-weight: normal;
-}
-.capitais-titulo{
-    position: relative;
-    font-size: 25px;
-    color: #fff;
-    padding-left: 5px;
-    padding-top: 40px;
-}
-.linha-tabela{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.graus-temperatura{
-    font-size: 16px;
-    color: #FF8C00;
-}     
-.dias-semana1{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    color: rgba(0, 0, 0, 0.788);
-}
-.graus-sabado{
-    padding-left: 3px;
-}
-.dias-semana{
-    font-weight: bold;
-    padding-left: 20px;
-}
 .linha{
     display: flex;
     position: relative;
@@ -197,18 +166,61 @@ body {
     right: 70px;
     top: 20px;
 }
+.capitais-titulo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.container-tabela-capitais{
+    display: flex;
+    position: relative;
+    margin: 15px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    right: 43px;
+}
+.linha-tabela{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.coluna-tabela1{
+    display: flex;
+    padding-left: 25px;
+}
+.coluna-tabela2{
+    display: flex;
+    padding-left: 25px;
+}
+.graus-temperatura{
+    font-size: 16px;
+    color: #FF8C00;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 10px;
+}     
+.graus-temperatura td {
+    color:#FF8C00 ;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 .bold{
     font-weight: bold;
     color: rgba(0, 0, 0, 0.733)
 }
 @media (max-width :600px){
     .header{
-        font-size: 13px;
+        font-size: 15px;
         color: white;
         height: 60px;
         width: 400px;
         border: 20px;
-        right: 16%;
+        right: 10%;
         text-align: center; 
         position: relative; 
     }
@@ -225,11 +237,52 @@ body {
         margin-top: 13px;
         flex-direction: column;
         left: 29%;
-        padding-left: 45px;
+    }
+    .temperatura-valor{
+        display: flex;
+        color: #585757;
+        flex-direction: row;
+        justify-content:left;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    .detalhe-temperatura{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        justify-content:left;
     }
     .temperatura-sensacao{
         display: flex;
-        padding-left: 52%;        
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .descrisao-sensacao{
+        font-size: 18px;
+    }
+    .min-max-semana{
+        font-size: 15px;
+    }
+    .dias-semana th{
+        padding-top: 10px;
+        text-align: center;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.726);
+    }
+    .dias-semana thead{
+        text-align: center;
+        font-weight: bold;
+        left: 20%;
+    }
+    .container-input{
+        padding-top: 10px;
+        width: calc(100% - 30px);
+        height: 60px;
+        position: relative;
+        margin-bottom: 15px;
     }
     .input-pesquisa-cidade{
         padding: 10px;
@@ -241,17 +294,17 @@ body {
         font-size: 20px;
         position: relative;
     } 
-    .container-input{
-        width: 90%;
-    }
     .button-pesquisa-cidade{
         position: absolute;
         text-align: center;
         color:rgba(0, 0, 0, 0.658);
         height: 100%;
-        padding: 10px;
+        padding: 5px;
         left: 86%;
         z-index: 20;
+    }
+    .container-input{
+        width: 90%;
     }
     .linha{
         display: flex;
@@ -260,24 +313,30 @@ body {
         border-top: 1px solid white;
         align-items: center;
         right: 0px;
-        top: 20px;
-    }
-    .conteiner-semana{
-        position: relative;
-        right: 30px
-    }
-    .linha-detalhe{
-        position: relative;
-        right: 45px;
-        width: 112%;
-        border-top: 1px solid #FF8C00;
+        top: 5px;
     }
     .capitais-titulo{
         position: relative;
-        font-size: 25px;
-        color: #fff;
-        padding-left: 40px;
-        padding-top: 40px;
+        padding-left: 37px;
+        padding-top: 20px;
+    }
+    .linha-tabela{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .coluna-tabela1{
+        display: flex;
+        padding-left: 25px;
+    }
+    .coluna-tabela2{
+        display: flex;
+        padding-left: 25px;
+    }
+    .linha-detalhe{
+        position: relative;
+        width: 100%;
+        border-top: 1px solid #FF8C00;
     }
     .container-tabela-capitais td{
         position: relative;
@@ -286,8 +345,8 @@ body {
     }
     .container-tabela-capitais th{
         position: relative;
-        padding: 10px;
+        padding: 1px;
         left: 15%;
         font-weight: normal;
     }
-}  
+}
