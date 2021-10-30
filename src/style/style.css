@@ -35,22 +35,24 @@ body {
     margin-bottom: 20px;
     margin-top: 13px;
     flex-direction: column;
-    left: 29%;
+    left: 29%;   
 }
-.padding{
+/* .padding{
     padding-left: 30px;
-}
+} */
 .nome-cidade{
     font-size: 18px;
     font-weight: bolder;
     position: relative;
     color: rgba(0, 0, 0, 0.726);
+    padding-left: 30px;
 }
 .temperatura-valor{
     color:rgba(0, 0, 0, 0.664);
     font-size: 50px;
     padding-top: 5%;
     padding-bottom: 15px;
+    padding-left: 30px;
 }
 .btn-close{
     max-width: 100%;
@@ -64,18 +66,21 @@ body {
 }
 .detalhe-temperatura{
     display: flex;
-    flex-direction: row;
-    border-left: 10px;
+    flex-direction: row;   
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    
 }
 .temperatura-baixa{
     display: flex;
-    flex-basis: 100%;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 .temperatura-alta{
     display: flex;
-    flex-basis: 100%;
-    flex: 4.6;
+    justify-content: center;
+    align-items: center;
 }
 .arrow{
     color: #FF8C00;
@@ -84,15 +89,16 @@ body {
     font-size: 36px;
 }
 .temperatura-sensacao{
-    position: relative;
-    text-align: center;
-    right: 43%;
-    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
 }
 .detalhe-vento-humidade{
     display: flex;
     flex-direction: row;
     border-left: 10px;
+    padding-left: 30px;
 }
 .humidade{
     padding-left: 9%;
@@ -246,19 +252,10 @@ body {
         font-size: 40px;
         font-weight: bolder;
     }
-    .detalhe-temperatura{
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: row;
-        justify-content:left;
-    }
     .temperatura-sensacao{
-        display: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        padding-left: 11%;        
     }
     .descrisao-sensacao{
         font-size: 18px;
@@ -349,4 +346,9 @@ body {
         left: 15%;
         font-weight: normal;
     }
+
+    /* @media screen {
+        Fazer ajuste da tabela para resolução 320 Iphone5/SE
+        
+    } */
 }
