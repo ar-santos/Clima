@@ -347,8 +347,38 @@ body {
         font-weight: normal;
     }
 
-    /* @media screen {
-        Fazer ajuste da tabela para resolução 320 Iphone5/SE
-        
-    } */
+    @media (max-width: 320px){
+        .header{
+            font-size: 15px;
+            color: white;
+            height: 60px;
+            width: 300px;
+            border: 0px;
+            right: 0%;
+            text-align: center; 
+            position: relative; 
+        }
+        .dias-semana th{
+            font-size: 13px;
+            padding-top: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.726);
+        }
+        .graus-temperatura td{
+            font-size: 13px;
+        }
+        .dias-semana thead{
+            text-align: center;
+            font-weight: bold;
+            left: 20%;
+        }
+        .material-icons.md-36 {
+            font-size: 27px;
+        }
+        .button-pesquisa-cidade{
+           padding-left: 15px;
+           top: 17px;
+        }       
+    } 
 }
